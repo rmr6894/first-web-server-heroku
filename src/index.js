@@ -2,7 +2,7 @@
 const http = require('http');
 
 // 2 - locally this will be 3000, on Heroku it will be assigned
-const port = process.env.port || process.env.NODE_PORT || 3000;
+const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
 // 3 - process.env is an environmental variable
 // https://nodejs.org/dist/latest-v8.x/docs/api/process.html#process_process_env
